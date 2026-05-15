@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.nammashaale.app-debug-73:/xml_file_paths.xml.flat",
+        "source": "com.nammashaale.app-main-75:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/yashavanthh/.gradle/daemon/8.7/com.nammashaale.app-debug-73:/drawable_ic_launcher.xml.flat",
+        "source": "/Users/yashavanthh/.gradle/daemon/8.7/com.nammashaale.app-main-75:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yashavanthh/.gradle/daemon/8.7/com.nammashaale.app-debug-73:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/yashavanthh/.gradle/daemon/8.7/com.nammashaale.app-main-75:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/yashavanthh/.gradle/daemon/8.7/com.nammashaale.app-debug-73:/xml_backup_rules.xml.flat",
+        "source": "/Users/yashavanthh/.gradle/daemon/8.7/com.nammashaale.app-main-75:/xml/backup_rules.xml"
+    }
+]
