@@ -1,0 +1,201 @@
+--------- beginning of main
+05-16 02:23:29.655   420   506 I adbd    : host-16: write thread spawning
+05-16 02:23:29.655   420   505 I adbd    : host-16: read thread spawning
+05-16 02:23:29.655   420   503 I adbd    : host-15: read thread spawning
+05-16 02:23:29.655   420   504 I adbd    : host-15: write thread spawning
+05-16 02:23:29.656   420   420 I adbd    : host-16: already offline
+05-16 02:23:29.657   420   420 I adbd    : Calling send_auth_request...
+05-16 02:23:29.657   403   403 D audioserver: main: AudioFlinger created
+05-16 02:23:29.663   403   403 E AudioFlinger: Function: getAudioPolicyConfig Line: 2493 Failed 
+05-16 02:23:29.674   422   422 I cameraserver: ServiceManager: 0xb40000719ae8cda0
+05-16 02:23:29.676   422   422 I CameraService: CameraService started (pid=422)
+05-16 02:23:29.676   422   422 I CameraService: CameraService process starting
+05-16 02:23:29.677   422   422 W BatteryNotifier: batterystats service unavailable!
+05-16 02:23:29.677   422   422 W BatteryNotifier: batterystats service unavailable!
+05-16 02:23:29.680   422   422 I cameraserver: Connecting to new camera provider: android.hardware.camera.provider.ICameraProvider/internal/0, isRemote? 1
+05-16 02:23:29.683   422   422 W cameraserver: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+05-16 02:23:29.683   422   422 W BpBinder: Linking to death on android.hardware.camera.provider.ICameraProvider but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-16 02:23:29.684   403   403 D APM_EngineLoader: Loaded engine from libaudiopolicyenginedefault.so
+05-16 02:23:29.684   403   403 D APM::AudioPolicyEngine/Base: loadAudioPolicyEngineConfig: No configuration found, using default matching phone experience.
+05-16 02:23:29.686   410   497 D RenderEngine: Background Blurs Enabled (Kawase algorithm)
+05-16 02:23:29.686   403   403 W APM::AudioPolicyEngine/Base: processParsingResult: No configuration of AUDIO_STREAM_CALL_ASSISTANT found, using default volume configuration
+05-16 02:23:29.688   422   422 I CameraProviderManager: Enumerating new camera device: device@1.1/internal/1
+05-16 02:23:29.689   373   373 W EmulatedCameraDeviceInfo: InitializeControlDefaults: No available post RAW boost! Setting default!
+05-16 02:23:29.689   373   373 I EmulatedCameraDeviceHwlImpl: Create: Created EmulatedCameraDeviceHwlImpl for camera 1
+05-16 02:23:29.689   373   373 D GCH_Utils: FindLibraryPaths: Unable to open directory /vendor/lib64/camera/capture_sessions/ (No such file or directory)
+05-16 02:23:29.689   373   373 I GCH_CameraDevice: Create: Created a camera device for public(1)
+05-16 02:23:29.690   403   403 W DeviceHalHidl: getSoundDoseInterface service android.hardware.audio.sounddose.ISoundDoseFactory/default doesn't exist
+05-16 02:23:29.690   403   403 W MelReporter: activateHalSoundDoseComputation: HAL cannot provide sound dose interface for module primary
+05-16 02:23:29.690   403   403 W AudioFlinger: loadHwModule() sound dose reporting is not available
+05-16 02:23:29.693   373   482 W GCH_HalVendorTags: ModifyCharacteristicsKeys: failed to get ANDROID_REQUEST_AVAILABLE_SESSION_KEYS
+05-16 02:23:29.693   422   422 E CameraProviderManager: addDynamicDepthTags: Advertised depth exclusive tag but value is not present!
+05-16 02:23:29.693   422   422 E cameraserver: AidlDeviceInfo3: Failed appending dynamic depth tags: Invalid argument (-22)
+05-16 02:23:29.694   422   422 W CameraProviderManager: Camera provider android.hardware.camera.provider.ICameraProvider/internal/0 says an unknown camera device@1.1/internal/1 now has torch status 1. Curious.
+05-16 02:23:29.694   373   482 W GCH_HalVendorTags: ModifyCharacteristicsKeys: failed to get ANDROID_REQUEST_AVAILABLE_SESSION_KEYS
+05-16 02:23:29.694   403   403 I AudioFlinger: loadHwModule() Loaded primary audio interface, handle 10
+05-16 02:23:29.694   373   482 W GCH_HalVendorTags: ModifyCharacteristicsKeys: failed to get ANDROID_REQUEST_AVAILABLE_SESSION_KEYS
+05-16 02:23:29.694   422   422 I CameraProviderManager: Camera provider android.hardware.camera.provider.ICameraProvider/internal/0 ready with 1 camera devices
+05-16 02:23:29.695   422   422 I cameraserver: Connecting to new camera provider: android.hardware.camera.provider.ICameraProvider/internal/1, isRemote? 1
+05-16 02:23:29.695   422   422 W cameraserver: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+05-16 02:23:29.695   422   422 W BpBinder: Linking to death on android.hardware.camera.provider.ICameraProvider but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+05-16 02:23:29.695   422   422 I CameraProviderManager: Enumerating new camera device: device@1.1/internal/10
+05-16 02:23:29.696   422   422 I CameraProviderManager: Camera provider android.hardware.camera.provider.ICameraProvider/internal/1 ready with 1 camera devices
+05-16 02:23:29.696   422   422 D CameraProviderManager: tryGetService: AIDL Camera provider HAL 'android.hardware.camera.provider.ICameraProvider/virtual/0' is not actually available
+05-16 02:23:29.696   422   422 W CameraProviderManager: tryToInitializeAidlProviderLocked: AIDL Camera provider HAL 'android.hardware.camera.provider.ICameraProvider/virtual/0' is not actually available
+05-16 02:23:29.696   422   422 I CameraService: onDeviceStatusChanged: Status changed for cameraId=1, newStatus=1
+05-16 02:23:29.696   422   422 I CameraService: onDeviceStatusChanged: Unknown camera ID 1, a new camera is added
+05-16 02:23:29.696   422   422 I CameraService: onDeviceStatusChanged: Status changed for cameraId=10, newStatus=1
+05-16 02:23:29.696   422   422 I CameraService: onDeviceStatusChanged: Unknown camera ID 10, a new camera is added
+05-16 02:23:29.696   403   403 I AudioFlinger: openOutput() this 0xb400006dbd8ad8a0, module 10 Device AUDIO_DEVICE_OUT_SPEAKER, @:, SamplingRate 48000, Format 0x000001, Channels 0x3, flags 0x2
+05-16 02:23:29.698   420   420 I adbd    : adbd_auth: loading keys from /data/misc/adb/adb_keys
+05-16 02:23:29.700   403   403 I AudioFlinger: operator(): Using 3000 ms as standby time
+05-16 02:23:29.700   403   403 I AudioFlinger: HAL output buffer size 1088 frames, normal sink buffer size 1088 frames
+05-16 02:23:29.701   422   422 I HidlServiceManagement: Registered android.frameworks.cameraservice.service@2.2::ICameraService/default
+05-16 02:23:29.701   403   403 W FactoryHal: hasAidlHalService android.hardware.audio.effect.IFactory/default: false
+05-16 02:23:29.701   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.audio.effect@7.1::IEffectsFactory/default in either framework or device VINTF manifest.
+05-16 02:23:29.701   403   403 W FactoryHal: hasAidlHalService android.hardware.audio.core.IModule/default: false
+05-16 02:23:29.702   420   420 I adbd    : adb client authorized
+05-16 02:23:29.704   422   422 I CameraService: CameraService pinged cameraservice proxy
+05-16 02:23:29.704   422   422 I cameraserver: ServiceManager: 0xb40000719ae8cda0 done instantiate
+05-16 02:23:29.704   422   422 W CameraProviderManager: addAidlProviderLocked: Camera provider HAL with name 'android.hardware.camera.provider.ICameraProvider/internal/0' already registered
+05-16 02:23:29.704   422   514 W CameraProviderManager: addAidlProviderLocked: Camera provider HAL with name 'android.hardware.camera.provider.ICameraProvider/internal/1' already registered
+05-16 02:23:29.766   410   497 I RenderEngine: OpenGL ES informations:
+05-16 02:23:29.766   410   497 I RenderEngine: vendor    : Google (Google Inc. (Google))
+05-16 02:23:29.766   410   497 I RenderEngine: renderer  : Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))
+05-16 02:23:29.766   410   497 I RenderEngine: version   : OpenGL ES 3.1 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))
+05-16 02:23:29.766   410   497 I RenderEngine: extensions: GL_EXT_debug_marker GL_EXT_robustness GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_EXT_clip_cull_distance ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_E
+05-16 02:23:29.766   410   497 I RenderEngine: GL_MAX_TEXTURE_SIZE = 8192
+05-16 02:23:29.766   410   497 I RenderEngine: GL_MAX_VIEWPORT_DIMS = 8192
+05-16 02:23:29.848   403   403 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-16 02:23:29.848   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-16 02:23:29.850   386   444 I Gralloc4: mapper 4.x is not supported
+05-16 02:23:29.850   403   403 D AudioFlinger: Failed to add event callback
+05-16 02:23:29.851   403   522 I AudioFlinger: AudioFlinger's thread 0xb400006ff77f48e0 tid=522 ready to run
+05-16 02:23:29.852   403   522 W AudioFlinger: no wake lock to update, system not ready yet
+05-16 02:23:29.852   403   522 D AudioFlinger: ro.audio.silent is ignored since no output device is set
+05-16 02:23:29.855   368   368 E android.hardware.audio@7.1-impl.ranchu: getPresentationPosition:510 failure: Result::INVALID_STATE
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume cannot set volume group 4 volume when is not requested for comm
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.861   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.861   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.862   403   403 V APM_AudioPolicyManager: computeVolume volume source 9, index 0,  devices 0x2, compute internal 1 
+05-16 02:23:29.864   403   522 W AudioFlinger: no wake lock to update, system not ready yet
+05-16 02:23:29.868   403   522 D AudioFlinger: ro.audio.silent is ignored since no output device is set
+05-16 02:23:29.868   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.870   403   403 V APM_AudioPolicyManager: computeVolume volume source 10, index 0,  devices 0x2, compute internal 1 
+05-16 02:23:29.872   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.872   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.872   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.872   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.872   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.872   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.872   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.872   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.872   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x2, need get index 0
+05-16 02:23:29.872   403   403 V APM_AudioPolicyManager: computeVolume volume source 23, index 0,  devices 0x2, compute internal 1 
+05-16 02:23:29.878   403   403 W AudioFlinger: moveEffects() AUDIO_SESSION_OUTPUT_MIX not found in orphans, checking other mix
+05-16 02:23:29.878   403   403 W AudioFlinger: moveEffects() bad srcIo 0
+05-16 02:23:29.878   403   403 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+05-16 02:23:29.878   403   403 V APM_AudioPolicyManager: setOutputDevices caller onNewAudioModulesAvailableInt[[portId:1][io:13, primary output]] device {AUDIO_DEVICE_OUT_SPEAKER, @:} delayMs 0
+05-16 02:23:29.878   403   403 V APM_AudioPolicyManager: setOutputDevices caller onNewAudioModulesAvailableInt[[portId:1][io:13, primary output]] prevDevice {AUDIO_DEVICE_OUT_SPEAKER, @:}
+05-16 02:23:29.878   403   403 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 9
+05-16 02:23:29.878   403   403 V APM_AudioPolicyManager: setOutputDevices caller onNewAudioModulesAvailableInt[[portId:1][io:13, primary output]] changing device to {AUDIO_DEVICE_OUT_SPEAKER, @:}
+05-16 02:23:29.893   386   444 D RanchuHwc: getBootConfigId: persistent boot config is not enabled.
+05-16 02:23:29.893   386   444 D RanchuHwc: init display:0 with config: id: 0 w:1080 h:2400 dpi-x:420 dpi-y:420 vsync:60.000002 config-group:0
+05-16 02:23:29.894   386   444 E RanchuHwc: start: failed to set Vsync thread priority: Invalid argument
+05-16 02:23:29.897   386   528 I RanchuHwc: Vsync thread for display:0 starting
+05-16 02:23:29.942   403   522 D AudioFlinger: updateHalSupportedLatencyModes_l: thread(13) status -38 supported latency modes: { }
+05-16 02:23:29.943   403   403 V APM_AudioPolicyManager: setOutputDevices() AF::createAudioPatch returned 0 patchHandle 12 num_sources 1 num_sinks 1
+05-16 02:23:29.944   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 V APM_AudioPolicyManager: checkAndSetVolume cannot set volume group 4 volume when is not requested for comm
+05-16 02:23:29.945   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.945   403   403 V APM_AudioPolicyManager: computeVolume volume source 9, index 0,  devices 0x2, compute internal 1 
+05-16 02:23:29.946   403   403 V APM_AudioPolicyManager: computeVolume volume source 10, index 0,  devices 0x2, compute internal 1 
+05-16 02:23:29.946   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.946   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.946   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.946   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.946   403   403 V APM_AudioPolicyManager: computeVolume volume source 23, index 0,  devices 0x2, compute internal 1 
+05-16 02:23:29.946   403   403 I AudioFlinger: openOutput() this 0xb400006dbd8ad8a0, module 10 Device AUDIO_DEVICE_OUT_TELEPHONY_TX, @:, SamplingRate 48000, Format 0x000001, Channels 0x3, flags 0
+05-16 02:23:29.946   410   410 I HwcComposer: Loaded AIDL composer3 HAL service
+05-16 02:23:29.947   410   410 E HwcComposer: getOverlaySupport failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+05-16 02:23:29.947   410   410 I HWComposer: Switching to generalized multi-display mode
+05-16 02:23:29.948   403   403 I AudioFlinger: HAL output buffer size 1088 frames, normal sink buffer size 1088 frames
+05-16 02:23:29.948   410   410 I SurfaceFlinger: Connecting display 4619827259835644672(HAL ID 0)
+05-16 02:23:29.949   403   403 D AudioFlinger: Failed to add event callback
+05-16 02:23:29.950   403   532 I AudioFlinger: AudioFlinger's thread 0xb400006ff76cf8e0 tid=532 ready to run
+05-16 02:23:29.950   403   532 W AudioFlinger: no wake lock to update, system not ready yet
+05-16 02:23:29.950   403   532 D AudioFlinger: ro.audio.silent is ignored since no output device is set
+05-16 02:23:29.950   368   368 E android.hardware.audio@7.1-impl.ranchu: getPresentationPosition:510 failure: Result::INVALID_STATE
+05-16 02:23:29.951   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.951   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.951   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.951   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.951   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.951   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.951   403   403 V APM_AudioPolicyManager: checkAndSetVolume cannot set volume group 4 volume when is not requested for comm
+05-16 02:23:29.951   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.951   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.952   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.952   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.952   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: computeVolume volume source 9, index 0,  devices 0x10000, compute internal 1 
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: computeVolume volume source 10, index 0,  devices 0x10000, compute internal 1 
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.952   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.952   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.953   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.953   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.953   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.953   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.953   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:29.953   403   403 V APM_AudioPolicyManager: checkAndSetVolume if deviceTypes is change from none to device 0x10000, need get index 0
+05-16 02:23:29.953   403   403 V APM_AudioPolicyManager: computeVolume volume source 23, index 0,  devices 0x10000, compute internal 1 
+05-16 02:23:29.953   403   532 W AudioFlinger: no wake lock to update, system not ready yet
+05-16 02:23:29.953   403   532 D AudioFlinger: ro.audio.silent is ignored since no output device is set
+05-16 02:23:29.960   403   403 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+05-16 02:23:29.966   403   403 V APM_AudioPolicyManager: setOutputDevices caller onNewAudioModulesAvailableInt[[portId:4][io:21, telephony_tx]] device {AUDIO_DEVICE_OUT_TELEPHONY_TX, @:} delayMs 0
+05-16 02:23:29.967   410   410 E HwcComposer: getPerFrameMetadataKeys failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+05-16 02:23:29.973   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+05-16 02:23:29.966   403   403 V APM_AudioPolicyManager: setOutputDevices caller onNewAudioModulesAvailableInt[[portId:4][io:21, telephony_tx]] prevDevice {AUDIO_DEVICE_OUT_TELEPHONY_TX, @:}
+05-16 02:23:29.983   403   403 V APM_AudioPolicyManager: setOutputDevices caller onNewAudioModulesAvailableInt[[portId:4][io:21, telephony_tx]] changing device to {AUDIO_DEVICE_OUT_TELEPHONY_TX, @:}
+05-16 02:23:29.985   410   410 I Gralloc4: mapper 4.x is not supported
+05-16 02:23:29.991   403   532 D AudioFlinger: updateHalSupportedLatencyModes_l: thread(21) status -38 supported latency modes: { }
+05-16 02:23:29.999   403   403 V APM_AudioPolicyManager: setOutputDevices() AF::createAudioPatch returned 0 patchHandle 20 num_sources 1 num_sinks 1
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 V APM_AudioPolicyManager: computeVolume volume source 9, index 0,  devices 0x10000, compute internal 1 
+05-16 02:23:30.008   403   403 V APM_AudioPolicyManager: computeVolume volume source 10, index 0,  devices 0x10000, compute internal 1 
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 E APM_AudioPolicyManager: invalid volume index range
+05-16 02:23:30.008   403   403 V APM_AudioPolicyManager: computeVolume volume source 23, index 0,  devices 0x10000, compute internal 1 
